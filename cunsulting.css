@@ -1,0 +1,102 @@
+body {
+  direction: rtl;
+  font-family: 'sans-serif';
+  background: linear-gradient(to top left, #edd2f3, #fffcdc, #84dfff);
+  margin: 0;
+  padding: 0;
+}
+.intro-text {
+@font-face 
+  font-family: 'MyFontName';
+  src: url('fonts/Vazirmatn-Thin.woff2') format('woff');
+  font-size: 15px;
+  line-height: 2;
+  white-space: normal;
+  text-align: justify;
+  margin: 0 0 20px 0;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.consulting-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.consulting-container h1 {
+  text-align: center;
+  color: #e60050;
+  margin-bottom: 20px;
+}
+
+.consulting-icon {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px;
+}
+
+/* استایل ردیف‌های لیبل و اینپوت */
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  flex: 0 0 30%;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* توضیحات — تمام عرض */
+.form-row-full {
+  margin-top: 20px;
+}
+
+.form-row-full label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-row-full textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* دکمه سمت چپ پایین */
+.submit-button {
+  background-color: #e60050;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 25px;
+  display: block;
+  margin-right: auto;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #c50045;
+}

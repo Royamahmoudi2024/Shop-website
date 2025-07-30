@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>مشاوره رایگان / ROYA BEAUTY</title>
+    <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet">
+    <link rel="stylesheet" href="cunsulting.css">
+</head>
+<body>
+    <div class="consulting-container">
+        <img src="photo_2025-07-02_16-56-26.jpg" alt="آیکون مشاوره" class="consulting-icon">
+        <h1>مشاوره رایگان زیبایی</h1>
+        <p class="intro-text">(برای داشتن پوستی شادابتر و انتخاب دقیق تر محصولات،اطلاعات خود را وارد کنید تا کارشناسان ما با شما تماس بگیرند)
+        </p>
+        
+ <form class="consulting-form">
+    <div class="form-row">
+<label for="name">نام و نام خانوادگی:</label>
+<input type="text"  id="name" name="name" required>
+</div>
+
+<div class="form-row">
+    <label for="phone">شماره تماس:</label>
+    <input type="tel"  id="phone" name="phone" required>
+    </div>
+
+<div class="form-row">
+    <label for="skin-type">نوع پوست:</label>
+      <select id="skin-type" name="skin-type">
+        <option value="">انتخاب کنید</option>
+        <option value="خشک">خشک</option>
+        <option value="چرب">چرب</option>
+        <option value="مختلط">مختلط</option>
+        <option value="نرمال">نرمال</option>
+        <option value="حساس">حساس</option>
+      </select>
+</div>
+
+<div class="form-row-full">
+    <label for="message">توضیحات (اختیاری):</label>
+    <textarea name="message" id="message"  rows="4"></textarea>
+    </div>
+
+    <button type="submit" class="submit-button">درخواست مشاوره</button>
+</form>
+    </div>
+
+    <script src="cunsulting.js"></script>
+</body>
+</html>

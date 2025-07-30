@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>کارت هدیه</title>
+    <link rel="stylesheet" href="Gift-card.css" />
+</head>
+<body>
+    <section class="gift-card">
+  <h2>کارت هدیه فروشگاه ما</h2>
+  <p>(کارت هدیه قابل استفاده برای خرید در هر زمان و مناسب هر مناسبت)</p>
+
+  <form id="giftCardForm">
+    
+    <label for="amount">انتخاب مبلغ:</label>
+    <select id="amount" name="amount" required>
+      <option value="" disabled selected>لطفا مبلغ را انتخاب کنید</option>
+      <option value="50000">۵۰,۰۰۰ تومان</option>
+      <option value="100000">۱۰۰,۰۰۰ تومان</option>
+      <option value="200000">۲۰۰,۰۰۰ تومان</option>
+      <option value="custom">مبلغ دلخواه</option>
+    </select>
+
+    <input type="number" id="customAmount" name="customAmount" placeholder="مبلغ دلخواه را وارد کنید" min="10000" step="1000" style="display:none;" />
+
+
+    <label for="recipient-name">نام گیرنده:</label>
+    <input type="text" id="recipient-name" name="recipient-name" placeholder="نام گیرنده را وارد کنید" required />
+
+
+    <label for="recipient-email">ایمیل گیرنده:</label>
+    <input type="email" id="recipient-email" name="recipient-email" placeholder="ایمیل گیرنده را وارد کنید" required />
+
+
+    <label for="message">پیام شخصی (اختیاری):</label>
+    <textarea id="message" name="message" placeholder="پیام تبریک شما"></textarea>
+
+
+    <label>روش ارسال:</label>
+    <div class="delivery-methods">
+      <label><input type="radio" name="delivery" value="email" checked /> ارسال ایمیلی (کارت دیجیتال)</label>
+      <label><input type="radio" name="delivery" value="postal" /> ارسال پستی (کارت فیزیکی)</label>
+    </div>
+
+    
+    <button type="submit">خرید کارت هدیه</button>
+  </form>
+
+  
+  <div class="terms">
+    <h3>قوانین و شرایط استفاده</h3>
+    <ul>
+      <li>کارت هدیه دارای اعتبار ۶ ماه از تاریخ خرید می‌باشد.</li>
+      <li>کارت هدیه غیرقابل بازگشت و انتقال می‌باشد.</li>
+      <li>استفاده از کارت هدیه فقط در فروشگاه معتبر است.</li>
+    </ul>
+  </div>
+</section>
+
+     <script src="Gift-card.js"></script>
+</body>
+</html>

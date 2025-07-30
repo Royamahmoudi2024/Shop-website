@@ -1,0 +1,70 @@
+body {
+   background: linear-gradient(to top left, #edd2f3, #fffcdc, #84dfff);
+}
+
+/* استایل کل بخش برندها */
+.brands-section {
+    font-family: 'vazir' tahoma, sans-serif;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background:  #fffaf6;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(230, 0, 80, 0.2);
+  font-family: 'Vazir', Tahoma, sans-serif;
+  text-align: center;
+}
+
+.brands-section h2 {
+  font-size: 2.8rem;
+  color: #e60050;
+  margin-bottom: 30px;
+  letter-spacing: 1.2px;
+  font-weight: 900;
+}
+
+.brands-container {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.brand-item {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(230, 0, 80, 0.15);
+  padding: 15px 20px;
+  width: 150px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.brand-item img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
+}
+
+/* اینجا اسم برند خوش‌خط و با رنگ #e60050 */
+.brand-item p {
+  font-family: 'Vazir', Tahoma, sans-serif;
+  color: #e60050;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 1.3px;
+  text-shadow: 0 1px 2px rgba(230, 0, 80, 0.5);
+  margin: 0;
+  user-select: none;
+}
+
+/* افکت هاور جذاب */
+.brand-item:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(230, 0, 80, 0.4);
+}
+
+.brand-item:hover img {
+  transform: rotate(-5deg) scale(1.1);
+}

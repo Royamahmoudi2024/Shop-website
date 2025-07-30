@@ -1,0 +1,100 @@
+body {
+  direction: rtl;
+  text-align: right;
+  background: linear-gradient(to top left, #edd2f3, #fffcdc, #84dfff);
+  padding: 20px;
+  border-radius: 15px;;
+}
+.gift-card {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 2px solid #e60050;
+  border-radius: 10px;
+  font-family: 'Vazirmatn', Tahoma, sans-serif;
+  background: #fff0f5;
+  color: #700030;
+}
+
+.gift-card h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.gift-card p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #a0003f;
+}
+
+.gift-card label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.gift-card select,
+.gift-card input[type="text"],
+.gift-card input[type="email"],
+.gift-card input[type="number"],
+.gift-card textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1.8px solid #e60050;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #700030;
+  box-sizing: border-box;
+}
+
+.gift-card textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+
+.delivery-methods label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.gift-card button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #e60050;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 900;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gift-card button:hover {
+  background-color: #c70045;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.terms {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #800040;
+}
+
+.terms ul {
+  padding-left: 18px;
+}
+
+.terms li {
+  margin-bottom: 6px;
+}
