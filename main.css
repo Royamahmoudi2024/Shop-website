@@ -1,3 +1,4 @@
+
 .headerContext {
     display: flex;
     width: 100%;
@@ -844,4 +845,107 @@ h1 {
   height: 70px;
  object-fit: contain;
   
+}
+/* حالت موبایل: عرض کمتر از 768px */
+@media (max-width: 768px) {
+  .promo-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .new-products-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .brands-container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .brands-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .article-box {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .article-box img {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .articles-cards {
+    justify-content: center;
+  }
+
+  .article-card {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-container {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .headerContext {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .video-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .bzn-brim-btn {
+    position: static;
+    margin: 20px auto 0;
+    transform: none;
+    display: block;
+  }
+
+  .search-box,
+  .search-btn {
+    font-size: 14px;
+  }
+
+  .promo-box .content {
+    left: 10px;
+    right: 10px;
+    max-width: 90%;
+  }
+
 }
